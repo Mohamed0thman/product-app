@@ -81,8 +81,8 @@ export function useItemsManager() {
   }, [state.query, activeItems, fuse]);
 
   const sorted = useMemo(() => {
-    if (state.sort === 'asc') return orderBy(filtered, ['title'], ['asc']);
-    if (state.sort === 'desc') return orderBy(filtered, ['title'], ['desc']);
+    if (state.sort === 'asc') return orderBy(filtered, ['price'], ['asc']);
+    if (state.sort === 'desc') return orderBy(filtered, ['price'], ['desc']);
     return filtered;
   }, [state.sort, filtered]);
 
