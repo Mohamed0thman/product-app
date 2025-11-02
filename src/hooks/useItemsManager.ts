@@ -59,7 +59,6 @@ function reducer(state: State, action: Action): State {
 export function useItemsManager() {
   const [state, dispatch] = useReducer(reducer, initialState);
 
-  // Fuse uses full data but we’ll ignore deleted ones
   const activeItems = useMemo(
     () => itemsData.filter(item => !state.deletedIds.has(item.id.toString())),
     [state.deletedIds],

@@ -6,7 +6,7 @@ import {
   FlexAlignType,
   StyleSheet,
 } from 'react-native';
-import type { Product } from '../types'; // adjust path as needed
+import type { Product } from '../types';
 import FastImage from '@d11/react-native-fast-image';
 
 interface ItemCardProps {
