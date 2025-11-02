@@ -4,12 +4,14 @@ import debounce from 'lodash.debounce';
 
 interface DebouncedInputProps extends TextInputProps {
   onDebouncedChange: (value: string) => void;
+  minLength?: number;
   delay?: number;
 }
 
 export const DebouncedInput: React.FC<DebouncedInputProps> = ({
   onDebouncedChange,
   delay = 500,
+  minLength = 3,
   placeholder = 'Type here...',
   style,
   ...props
@@ -17,16 +19,14 @@ export const DebouncedInput: React.FC<DebouncedInputProps> = ({
   const debouncedChangeHandler = useMemo(
     () =>
       debounce((value: string) => {
-        onDebouncedChange(value);
+        if (value.length >= minLength) {
+          onDebouncedChange(value);
+        } else {
+          onDebouncedChange('');
+        }
       }, delay),
-    [delay, onDebouncedChange],
+    [delay, minLength, onDebouncedChange],
   );
-
-  React.useEffect(() => {
-    return () => {
-      debouncedChangeHandler.cancel();
-    };
-  }, [debouncedChangeHandler]);
 
   const handleChangeText = useCallback(
     (text: string) => {
@@ -35,6 +35,11 @@ export const DebouncedInput: React.FC<DebouncedInputProps> = ({
     [debouncedChangeHandler],
   );
 
+  React.useEffect(() => {
+    return () => {
+      debouncedChangeHandler.cancel();
+    };
+  }, [debouncedChangeHandler]);
   return (
     <View style={styles.container}>
       <TextInput

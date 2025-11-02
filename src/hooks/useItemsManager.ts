@@ -4,7 +4,7 @@ import Fuse from 'fuse.js';
 import orderBy from 'lodash/orderBy';
 import itemsData from '../../product-data.json';
 
-type SortState = 'none' | 'asc' | 'desc';
+export type SortState = 'none' | 'asc' | 'desc';
 
 interface State {
   query: string;
