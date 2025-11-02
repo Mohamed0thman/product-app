@@ -48,9 +48,7 @@ export const DebouncedInput: React.FC<DebouncedInputProps> = ({
 };
 
 const styles = StyleSheet.create({
-  container: {
-    padding: 10,
-  },
+  container: {},
   input: {
     height: 45,
     borderWidth: 1,

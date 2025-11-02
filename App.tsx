@@ -24,7 +24,6 @@ import FastImage from '@d11/react-native-fast-image';
 import { useOrientation } from './src/hooks';
 import { useItemsManager } from './src/hooks/useItemsManager';
 import { DebouncedInput } from './src/components';
-import { NewAppScreen } from '@react-native/new-app-screen';
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
@@ -98,7 +97,12 @@ function AppContent() {
       <DebouncedInput onDebouncedChange={handleDebouncedChange} delay={2000} />
 
       <View style={styles.controls}>
-        <Button title={`Sort: ${sort}`} onPress={handleSort} />
+        <View style={{ flexDirection: 'row', gap: 10 }}>
+          <Button title={`Sort: ASC`} onPress={handleSort} />
+          <Button title={`Sort: DSC}`} onPress={handleSort} />
+          <Button title={`reset`} onPress={handleSort} />
+        </View>
+
         {selectedIds.size > 0 && (
           <Button
             title={`Delete Selected (${selectedIds.size})`}
@@ -107,7 +111,6 @@ function AppContent() {
           />
         )}
       </View>
-      <NewAppScreen />
 
       <LegendList
         key={orientation === 'portrait' ? 1 : 2}
@@ -117,38 +120,34 @@ function AppContent() {
         keyExtractor={item => item.id.toString()}
         extraData={selectedIds}
         recycleItems
-        contentContainerStyle={{ paddingBottom: safeAreaInsets.bottom }}
+        contentContainerStyle={{
+          paddingBottom: safeAreaInsets.bottom,
+          gap: 20,
+        }}
         estimatedItemSize={orientation === 'portrait' ? 350 : 300}
+        showsVerticalScrollIndicator={false}
       />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1 },
+  container: { flex: 1, paddingHorizontal: 20, gap: 20 },
   image: { width: '100%', height: 200, borderRadius: 8 },
   card: {
     backgroundColor: 'white',
     padding: 10,
     borderRadius: 10,
-    margin: 10,
     shadowColor: 'black',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
     elevation: 5,
   },
-  searchInput: {
-    height: 40,
-    borderColor: 'gray',
-    borderWidth: 1,
-    margin: 10,
-    padding: 10,
-  },
+
   controls: {
-    flexDirection: 'row',
-    justifyContent: 'space-around',
     marginBottom: 10,
+    gap: 10,
   },
 });
 
