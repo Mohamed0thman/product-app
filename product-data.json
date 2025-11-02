@@ -1,0 +1,842 @@
+[
+    {
+        "id": 1,
+        "title": "Wireless Bluetooth Headphones",
+        "description": "High-quality sound with noise cancellation.",
+        "image": "https://picsum.photos/800/800?random=1",
+        "price": 59.99,
+        "tags": [
+            "electronics",
+            "audio",
+            "bluetooth"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Stainless Steel Water Bottle",
+        "description": "Keeps drinks cold for 24 hours and hot for 12 hours.",
+        "image": "https://picsum.photos/800/800?random=2",
+        "price": 19.99,
+        "tags": [
+            "kitchen",
+            "hydration",
+            "sustainable"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Smart LED Light Bulb",
+        "description": "Adjustable color and brightness, works with Alexa.",
+        "image": "https://picsum.photos/800/800?random=3",
+        "price": 14.99,
+        "tags": [
+            "electronics",
+            "smart home",
+            "lighting"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Organic Cotton T-Shirt",
+        "description": "Comfortable and eco-friendly, available in multiple colors.",
+        "image": "https://picsum.photos/800/800?random=4",
+        "price": 25,
+        "tags": [
+            "apparel",
+            "eco-friendly",
+            "cotton"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Portable Power Bank",
+        "description": "10000mAh capacity, fast charging for all devices.",
+        "image": "https://picsum.photos/800/800?random=45",
+        "price": 29.99,
+        "tags": [
+            "electronics",
+            "mobile",
+            "charging"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Noise Cancelling Earbuds",
+        "description": "In-ear design with superior sound quality.",
+        "image": "https://picsum.photos/800/800?random=6",
+        "price": 49.99,
+        "tags": [
+            "electronics",
+            "audio",
+            "earbuds"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Adjustable Standing Desk",
+        "description": "Ergonomic design with easy height adjustment.",
+        "image": "https://picsum.photos/800/800?random=7",
+        "price": 299.99,
+        "tags": [
+            "furniture",
+            "office",
+            "ergonomics"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Yoga Mat with Alignment Lines",
+        "description": "Non-slip surface with guide lines for proper positioning.",
+        "image": "https://picsum.photos/800/800?random=8",
+        "price": 39.99,
+        "tags": [
+            "fitness",
+            "yoga",
+            "wellness"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Instant Pot Pressure Cooker",
+        "description": "7-in-1 multifunctional cooker with easy controls.",
+        "image": "https://picsum.photos/800/800?random=9",
+        "price": 89.99,
+        "tags": [
+            "kitchen",
+            "appliances",
+            "cooking"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "4K Ultra HD Smart TV",
+        "description": "Crystal-clear picture with streaming capabilities.",
+        "image": "https://picsum.photos/800/800?random=10",
+        "price": 399.99,
+        "tags": [
+            "electronics",
+            "home entertainment",
+            "TV"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Ergonomic Office Chair",
+        "description": "Comfortable design with lumbar support and adjustable height.",
+        "image": "https://picsum.photos/800/800?random=11",
+        "price": 149.99,
+        "tags": [
+            "furniture",
+            "office",
+            "ergonomics"
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Electric Toothbrush",
+        "description": "Advanced cleaning technology with multiple modes.",
+        "image": "https://picsum.photos/800/800?random=12",
+        "price": 59.99,
+        "tags": [
+            "personal care",
+            "hygiene",
+            "electric"
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Wireless Charging Pad",
+        "description": "Fast and convenient wireless charging for all compatible devices.",
+        "image": "https://picsum.photos/800/800?random=13",
+        "price": 19.99,
+        "tags": [
+            "electronics",
+            "mobile",
+            "charging"
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Air Purifier with HEPA Filter",
+        "description": "Removes allergens and pollutants from the air.",
+        "image": "https://picsum.photos/800/800?random=14",
+        "price": 129.99,
+        "tags": [
+            "home",
+            "wellness",
+            "appliances"
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Smartwatch with Fitness Tracker",
+        "description": "Tracks activity, heart rate, and sleep patterns.",
+        "image": "https://picsum.photos/800/800?random=15",
+        "price": 99.99,
+        "tags": [
+            "electronics",
+            "wearable",
+            "fitness"
+        ]
+    },
+    {
+        "id": 16,
+        "title": "Electric Kettle",
+        "description": "Fast boiling with automatic shut-off and temperature control.",
+        "image": "https://picsum.photos/800/800?random=16",
+        "price": 39.99,
+        "tags": [
+            "kitchen",
+            "appliances",
+            "beverage"
+        ]
+    },
+    {
+        "id": 17,
+        "title": "Robot Vacuum Cleaner",
+        "description": "Automated cleaning with smart navigation and app control.",
+        "image": "https://picsum.photos/800/800?random=17",
+        "price": 199.99,
+        "tags": [
+            "home",
+            "cleaning",
+            "robotics"
+        ]
+    },
+    {
+        "id": 18,
+        "title": "Insulated Travel Mug",
+        "description": "Leak-proof design keeps drinks at the perfect temperature.",
+        "image": "https://picsum.photos/800/800?random=18",
+        "price": 24.99,
+        "tags": [
+            "kitchen",
+            "beverage",
+            "travel"
+        ]
+    },
+    {
+        "id": 19,
+        "title": "Digital Photo Frame",
+        "description": "Displays your favorite photos with high resolution and easy uploads.",
+        "image": "https://picsum.photos/800/800?random=19",
+        "price": 89.99,
+        "tags": [
+            "electronics",
+            "home",
+            "photos"
+        ]
+    },
+    {
+        "id": 20,
+        "title": "Fitness Resistance Bands",
+        "description": "Set of bands with different resistance levels for a full-body workout.",
+        "image": "https://picsum.photos/800/800?random=20",
+        "price": 29.99,
+        "tags": [
+            "fitness",
+            "exercise",
+            "portable"
+        ]
+    },
+    {
+        "id": 21,
+        "title": "Wireless Home Security Camera",
+        "description": "HD video, night vision, and motion detection alerts.",
+        "image": "https://picsum.photos/800/800?random=21",
+        "price": 69.99,
+        "tags": [
+            "electronics",
+            "security",
+            "smart home"
+        ]
+    },
+    {
+        "id": 22,
+        "title": "Bluetooth Speaker",
+        "description": "Portable speaker with powerful sound and long battery life.",
+        "image": "https://picsum.photos/800/800?random=22",
+        "price": 49.99,
+        "tags": [
+            "electronics",
+            "audio",
+            "bluetooth"
+        ]
+    },
+    {
+        "id": 23,
+        "title": "Electric Scooter",
+        "description": "Eco-friendly transportation with high speed and long range.",
+        "image": "https://picsum.photos/800/800?random=23",
+        "price": 299.99,
+        "tags": [
+            "transportation",
+            "eco-friendly",
+            "outdoors"
+        ]
+    },
+    {
+        "id": 24,
+        "title": "Cordless Drill Set",
+        "description": "Powerful drill with multiple bits and accessories.",
+        "image": "https://picsum.photos/800/800?random=24",
+        "price": 79.99,
+        "tags": [
+            "tools",
+            "DIY",
+            "home improvement"
+        ]
+    },
+    {
+        "id": 25,
+        "title": "Electric Heated Blanket",
+        "description": "Adjustable heat settings for maximum comfort.",
+        "image": "https://picsum.photos/800/800?random=25",
+        "price": 59.99,
+        "tags": [
+            "home",
+            "bedding",
+            "comfort"
+        ]
+    },
+    {
+        "id": 26,
+        "title": "Portable Air Conditioner",
+        "description": "Compact design with efficient cooling for small spaces.",
+        "image": "https://picsum.photos/800/800?random=26",
+        "price": 249.99,
+        "tags": [
+            "home",
+            "appliances",
+            "cooling"
+        ]
+    },
+    {
+        "id": 27,
+        "title": "Outdoor Solar Lights",
+        "description": "Energy-efficient lighting for your garden or walkway.",
+        "image": "https://picsum.photos/800/800?random=27",
+        "price": 39.99,
+        "tags": [
+            "outdoors",
+            "lighting",
+            "solar"
+        ]
+    },
+    {
+        "id": 28,
+        "title": "Digital Kitchen Scale",
+        "description": "Accurate measurements with a sleek design.",
+        "image": "https://picsum.photos/800/800?random=28",
+        "price": 19.99,
+        "tags": [
+            "kitchen",
+            "cooking",
+            "tools"
+        ]
+    },
+    {
+        "id": 29,
+        "title": "Leather Wallet",
+        "description": "Classic design with multiple card slots and a coin pocket.",
+        "image": "https://picsum.photos/800/800?random=29",
+        "price": 49.99,
+        "tags": [
+            "accessories",
+            "leather",
+            "fashion"
+        ]
+    },
+    {
+        "id": 30,
+        "title": "Wireless Mouse",
+        "description": "Ergonomic design with precise tracking and long battery life.",
+        "image": "https://picsum.photos/800/800?random=30",
+        "price": 19.99,
+        "tags": [
+            "electronics",
+            "computer accessories",
+            "wireless"
+        ]
+    },
+    {
+        "id": 31,
+        "title": "Bluetooth Earbuds",
+        "description": "Sweat-proof and comfortable fit for workouts.",
+        "image": "https://picsum.photos/800/800?random=31",
+        "price": 39.99,
+        "tags": [
+            "electronics",
+            "audio",
+            "bluetooth"
+        ]
+    },
+    {
+        "id": 32,
+        "title": "Indoor Herb Garden Kit",
+        "description": "Grow your own herbs with this easy-to-use kit.",
+        "image": "https://picsum.photos/800/800?random=32",
+        "price": 29.99,
+        "tags": [
+            "home",
+            "gardening",
+            "plants"
+        ]
+    },
+    {
+        "id": 33,
+        "title": "Foldable Laptop Stand",
+        "description": "Adjustable stand for ergonomic typing and better airflow.",
+        "image": "https://picsum.photos/800/800?random=33",
+        "price": 24.99,
+        "tags": [
+            "electronics",
+            "computer accessories",
+            "ergonomics"
+        ]
+    },
+    {
+        "id": 34,
+        "title": "Hydro Flask Water Bottle",
+        "description": "Double-wall vacuum insulation keeps drinks cold for up to 24 hours.",
+        "image": "https://picsum.photos/800/800?random=34",
+        "price": 34.95,
+        "tags": [
+            "hydration",
+            "outdoors",
+            "sustainable"
+        ]
+    },
+    {
+        "id": 35,
+        "title": "Portable Laptop Charger",
+        "description": "High-capacity power bank for charging laptops on the go.",
+        "image": "https://picsum.photos/800/800?random=35",
+        "price": 79.99,
+        "tags": [
+            "electronics",
+            "mobile",
+            "charging"
+        ]
+    },
+    {
+        "id": 36,
+        "title": "Stainless Steel Cooking Utensil Set",
+        "description": "Durable utensils for all your cooking needs.",
+        "image": "https://picsum.photos/800/800?random=36",
+        "price": 29.99,
+        "tags": [
+            "kitchen",
+            "cooking",
+            "utensils"
+        ]
+    },
+    {
+        "id": 37,
+        "title": "Fitness Tracker Watch",
+        "description": "Tracks steps, calories burned, and heart rate.",
+        "image": "https://picsum.photos/800/800?random=37",
+        "price": 49.99,
+        "tags": [
+            "fitness",
+            "wearable",
+            "health"
+        ]
+    },
+    {
+        "id": 38,
+        "title": "Aromatherapy Essential Oil Diffuser",
+        "description": "Creates a relaxing atmosphere with soothing scents.",
+        "image": "https://picsum.photos/800/800?random=38",
+        "price": 29.99,
+        "tags": [
+            "home",
+            "wellness",
+            "aromatherapy"
+        ]
+    },
+    {
+        "id": 39,
+        "title": "Compact Folding Bike",
+        "description": "Easy to fold and store, perfect for urban commuting.",
+        "image": "https://picsum.photos/800/800?random=39",
+        "price": 299.99,
+        "tags": [
+            "transportation",
+            "outdoors",
+            "biking"
+        ]
+    },
+    {
+        "id": 40,
+        "title": "Resistance Loop Bands",
+        "description": "Set of bands for strength training and physical therapy.",
+        "image": "https://picsum.photos/800/800?random=40",
+        "price": 14.99,
+        "tags": [
+            "fitness",
+            "exercise",
+            "rehabilitation"
+        ]
+    },
+    {
+        "id": 41,
+        "title": "Ceramic Nonstick Cookware Set",
+        "description": "Durable and easy-to-clean pots and pans with nonstick coating.",
+        "image": "https://picsum.photos/800/800?random=41",
+        "price": 99.99,
+        "tags": [
+            "kitchen",
+            "cooking",
+            "cookware"
+        ]
+    },
+    {
+        "id": 42,
+        "title": "Bluetooth Karaoke Microphone",
+        "description": "Wireless microphone with built-in speaker for karaoke fun.",
+        "image": "https://picsum.photos/800/800?random=42",
+        "price": 24.99,
+        "tags": [
+            "electronics",
+            "audio",
+            "karaoke"
+        ]
+    },
+    {
+        "id": 43,
+        "title": "Travel Neck Pillow",
+        "description": "Memory foam pillow for comfortable travel.",
+        "image": "https://picsum.photos/800/800?random=43",
+        "price": 19.99,
+        "tags": [
+            "travel",
+            "comfort",
+            "accessories"
+        ]
+    },
+    {
+        "id": 44,
+        "title": "Collapsible Silicone Food Containers",
+        "description": "Space-saving containers for food storage.",
+        "image": "https://picsum.photos/800/800?random=44",
+        "price": 14.99,
+        "tags": [
+            "kitchen",
+            "storage",
+            "organization"
+        ]
+    },
+    {
+        "id": 45,
+        "title": "UV Phone Sanitizer",
+        "description": "Kills 99.9% of germs on your phone in minutes.",
+        "image": "https://picsum.photos/800/800?random=45",
+        "price": 29.99,
+        "tags": [
+            "electronics",
+            "cleaning",
+            "health"
+        ]
+    },
+    {
+        "id": 46,
+        "title": "Smart Plug",
+        "description": "Control your devices remotely with voice commands.",
+        "image": "https://picsum.photos/800/800?random=46",
+        "price": 19.99,
+        "tags": [
+            "electronics",
+            "smart home",
+            "home automation"
+        ]
+    },
+    {
+        "id": 47,
+        "title": "Portable Blender",
+        "description": "Blend smoothies and shakes on the go.",
+        "image": "https://picsum.photos/800/800?random=47",
+        "price": 39.99,
+        "tags": [
+            "kitchen",
+            "appliances",
+            "blender"
+        ]
+    },
+    {
+        "id": 48,
+        "title": "Massage Gun",
+        "description": "Relieves muscle tension and soreness with percussive therapy.",
+        "image": "https://picsum.photos/800/800?random=48",
+        "price": 89.99,
+        "tags": [
+            "fitness",
+            "recovery",
+            "massage"
+        ]
+    },
+    {
+        "id": 49,
+        "title": "Reusable Food Storage Bags",
+        "description": "Environmentally friendly alternative to disposable plastic bags.",
+        "image": "https://picsum.photos/800/800?random=49",
+        "price": 12.99,
+        "tags": [
+            "kitchen",
+            "sustainability",
+            "storage"
+        ]
+    },
+    {
+        "id": 50,
+        "title": "Adjustable Dumbbell Set",
+        "description": "Space-saving design with adjustable weight increments.",
+        "image": "https://picsum.photos/800/800?random=50",
+        "price": 199.99,
+        "tags": [
+            "fitness",
+            "exercise",
+            "strength training"
+        ]
+    },
+    {
+        "id": 51,
+        "title": "Solar-Powered Outdoor String Lights",
+        "description": "Create a cozy atmosphere in your outdoor space.",
+        "image": "https://picsum.photos/800/800?random=51",
+        "price": 29.99,
+        "tags": [
+            "outdoors",
+            "lighting",
+            "solar"
+        ]
+    },
+    {
+        "id": 52,
+        "title": "Portable Hammock",
+        "description": "Relax anywhere with this lightweight hammock.",
+        "image": "https://picsum.photos/800/800?random=52",
+        "price": 49.99,
+        "tags": [
+            "outdoors",
+            "camping",
+            "relaxation"
+        ]
+    },
+    {
+        "id": 53,
+        "title": "Portable Espresso Maker",
+        "description": "Brew espresso anywhere, anytime.",
+        "image": "https://picsum.photos/800/800?random=53",
+        "price": 49.99,
+        "tags": [
+            "kitchen",
+            "coffee",
+            "portable"
+        ]
+    },
+    {
+        "id": 54,
+        "title": "Smart Home Thermostat",
+        "description": "Save energy and control your home's temperature from anywhere.",
+        "image": "https://picsum.photos/800/800?random=54",
+        "price": 129.99,
+        "tags": [
+            "electronics",
+            "smart home",
+            "energy saving"
+        ]
+    },
+    {
+        "id": 55,
+        "title": "Fitness Jump Rope",
+        "description": "Durable rope with comfortable handles for cardio workouts.",
+        "image": "https://picsum.photos/800/800?random=55",
+        "price": 14.99,
+        "tags": [
+            "fitness",
+            "exercise",
+            "cardio"
+        ]
+    },
+    {
+        "id": 56,
+        "title": "Portable Power Station",
+        "description": "Power your devices off-grid with solar or car charging options.",
+        "image": "https://picsum.photos/800/800?random=56",
+        "price": 299.99,
+        "tags": [
+            "electronics",
+            "outdoors",
+            "sustainability"
+        ]
+    },
+    {
+        "id": 57,
+        "title": "Electric Wine Opener",
+        "description": "Effortlessly open wine bottles with the push of a button.",
+        "image": "https://picsum.photos/800/800?random=57",
+        "price": 19.99,
+        "tags": [
+            "kitchen",
+            "wine",
+            "gadgets"
+        ]
+    },
+    {
+        "id": 58,
+        "title": "LED Desk Lamp",
+        "description": "Adjustable brightness and color temperature for optimal lighting.",
+        "image": "https://picsum.photos/800/800?random=58",
+        "price": 29.99,
+        "tags": [
+            "home",
+            "lighting",
+            "desk accessories"
+        ]
+    },
+    {
+        "id": 59,
+        "title": "Collapsible Camping Chair",
+        "description": "Comfortable chair for outdoor adventures.",
+        "image": "https://picsum.photos/800/800?random=59",
+        "price": 29.99,
+        "tags": [
+            "outdoors",
+            "camping",
+            "furniture"
+        ]
+    },
+    {
+        "id": 60,
+        "title": "Smart Water Bottle",
+        "description": "Tracks hydration and reminds you to drink water throughout the day.",
+        "image": "https://picsum.photos/800/800?random=60",
+        "price": 34.99,
+        "tags": [
+            "health",
+            "hydration",
+            "smart"
+        ]
+    },
+    {
+        "id": 61,
+        "title": "Portable Charcoal Grill",
+        "description": "Compact grill for outdoor cooking on the go.",
+        "image": "https://picsum.photos/800/800?random=61",
+        "price": 49.99,
+        "tags": [
+            "outdoors",
+            "grilling",
+            "portable"
+        ]
+    },
+    {
+        "id": 62,
+        "title": "Smart Doorbell Camera",
+        "description": "See who's at your door from anywhere with video doorbell.",
+        "image": "https://picsum.photos/800/800?random=62",
+        "price": 149.99,
+        "tags": [
+            "electronics",
+            "security",
+            "smart home"
+        ]
+    },
+    {
+        "id": 63,
+        "title": "Portable Clothes Steamer",
+        "description": "Remove wrinkles and refresh clothes with ease.",
+        "image": "https://picsum.photos/800/800?random=63",
+        "price": 39.99,
+        "tags": [
+            "home",
+            "laundry",
+            "travel"
+        ]
+    },
+    {
+        "id": 64,
+        "title": "Compact Air Fryer",
+        "description": "Enjoy fried food with less oil for healthier cooking.",
+        "image": "https://picsum.photos/800/800?random=64",
+        "price": 79.99,
+        "tags": [
+            "kitchen",
+            "appliances",
+            "healthy cooking"
+        ]
+    },
+    {
+        "id": 65,
+        "title": "Bluetooth FM Transmitter for Car",
+        "description": "Stream music and take calls hands-free in your car.",
+        "image": "https://picsum.photos/800/800?random=65",
+        "price": 19.99,
+        "tags": [
+            "electronics",
+            "car accessories",
+            "bluetooth"
+        ]
+    },
+    {
+        "id": 66,
+        "title": "Portable Solar Charger",
+        "description": "Charge your devices with the power of the sun.",
+        "image": "https://picsum.photos/800/800?random=66",
+        "price": 49.99,
+        "tags": [
+            "electronics",
+            "outdoors",
+            "sustainability"
+        ]
+    },
+    {
+        "id": 67,
+        "title": "Waterproof Bluetooth Speaker",
+        "description": "Enjoy music by the pool or at the beach without worrying about water damage.",
+        "image": "https://picsum.photos/800/800?random=67",
+        "price": 39.99,
+        "tags": [
+            "electronics",
+            "audio",
+            "waterproof"
+        ]
+    },
+    {
+        "id": 68,
+        "title": "Portable Solar Panel",
+        "description": "Harness solar power to charge your devices on the go.",
+        "image": "https://picsum.photos/800/800?random=68",
+        "price": 99.99,
+        "tags": [
+            "electronics",
+            "outdoors",
+            "sustainability"
+        ]
+    },
+    {
+        "id": 69,
+        "title": "Smart Kitchen Scale",
+        "description": "Measure ingredients accurately and track nutritional information.",
+        "image": "https://picsum.photos/800/800?random=69",
+        "price": 49.99,
+        "tags": [
+            "kitchen",
+            "cooking",
+            "smart home"
+        ]
+    },
+    {
+        "id": 70,
+        "title": "Portable Bluetooth Printer",
+        "description": "Print photos and documents from your smartphone on the go.",
+        "image": "https://picsum.photos/800/800?random=70",
+        "price": 79.99,
+        "tags": [
+            "electronics",
+            "portable",
+            "bluetooth"
+        ]
+    }
+]
