@@ -98,7 +98,7 @@ function AppContent() {
         )}
         keyExtractor={item => item.id.toString()}
         extraData={selectedIds}
-        // recycleItems
+        recycleItems
         contentContainerStyle={
           {
             paddingBottom: safeAreaInsets.bottom + 20,
