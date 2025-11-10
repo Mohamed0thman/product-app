@@ -5,7 +5,7 @@
  * @format
  */
 
-import { LegendList } from '@legendapp/list';
+import { LegendList, LegendListRef } from '@legendapp/list';
 import {
   Button,
   StatusBar,
@@ -19,8 +19,8 @@ import {
   SafeAreaProvider,
   useSafeAreaInsets,
 } from 'react-native-safe-area-context';
-import { useMemo } from 'react';
-import { useOrientation, useItemsManager } from './src/hooks';
+import { useMemo, useRef } from 'react';
+import { useOrientation, useItemsManager, SortState } from './src/hooks';
 import { DebouncedInput, ProductCard } from './src/components';
 
 function App() {
@@ -50,16 +50,32 @@ function AppContent() {
     toggleSelect,
     deleteSelected,
     reset,
+    sort,
   } = useItemsManager();
 
-  const numColumns = orientation === 'portrait' ? 1 : 2;
+  const listRef = useRef<LegendListRef>(null);
+
+  const columnsNumber = 3;
+
+  const numColumns = orientation === 'portrait' ? 1 : columnsNumber;
   const horizontalPadding = 16;
   const gap = 16;
 
   const cardWidth = useMemo(() => {
     if (orientation === 'portrait') return width - horizontalPadding;
-    return (width - horizontalPadding * 2 - gap) / 2;
+    return (width - horizontalPadding * 2 - gap) / columnsNumber;
   }, [orientation, width]);
+
+  const handleSort = (sort: SortState) => {
+    listRef.current?.scrollToIndex({ index: 0 });
+    if (sort === 'asc') {
+      setSort('desc');
+    } else if (sort === 'desc') {
+      setSort('none');
+    } else {
+      setSort('asc');
+    }
+  };
 
   return (
     <View style={[styles.container, { top: safeAreaInsets.top }]}>
@@ -68,9 +84,7 @@ function AppContent() {
 
         <View style={styles.controls}>
           <View style={{ flexDirection: 'row', gap: 10 }}>
-            <Button title={`Sort: ASC`} onPress={() => setSort('asc')} />
-            <Button title={`Sort: DSC}`} onPress={() => setSort('desc')} />
-            <Button title={`reset`} onPress={reset} />
+            <Button title={`Sort: ${sort}`} onPress={() => handleSort(sort)} />
           </View>
 
           {selectedIds.size > 0 && (
@@ -83,6 +97,7 @@ function AppContent() {
         </View>
       </View>
       <LegendList
+        ref={listRef}
         key={numColumns}
         numColumns={numColumns}
         data={items}

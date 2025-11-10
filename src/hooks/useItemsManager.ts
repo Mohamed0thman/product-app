@@ -1,4 +1,3 @@
-// src/hooks/useItemsManager.ts
 import { useReducer, useMemo } from 'react';
 import Fuse from 'fuse.js';
 import orderBy from 'lodash/orderBy';
@@ -34,17 +33,14 @@ function reducer(state: State, action: Action): State {
 
     case 'SET_SORT':
       return { ...state, sort: action.payload };
-
     case 'RESET':
       return initialState;
-
     case 'TOGGLE_SELECT': {
       const newSet = new Set(state.selectedIds);
       if (newSet.has(action.payload)) newSet.delete(action.payload);
       else newSet.add(action.payload);
       return { ...state, selectedIds: newSet };
     }
-
     case 'DELETE_SELECTED': {
       const newDeleted = new Set(state.deletedIds);
       state.selectedIds.forEach(id => newDeleted.add(id));
